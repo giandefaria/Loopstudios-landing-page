@@ -12,7 +12,8 @@ challenge from frontendmentor.io. https://www.frontendmentor.io/challenges/time-
  [X] criar as divisões do cabeçalho, principal, e rodapé
  [x] criar gridbox do site, deixando pronta as divisões do conteúdo
  [X] adicionar os navegadores e a logo do site no cabeçalho
- [ ] adicionar o background do cabeçalho
+ [X] Arrumar a fonte no cabeçalho
+ [X] adicionar o background do cabeçalho
  [ ] adicionar as duas imagens iniciais do main
  [ ] adicionar o título e as imagens do grid no main
  [ ] adicionar as logos no rodapé

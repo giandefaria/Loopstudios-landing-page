@@ -1,16 +1,22 @@
 html {
     margin: 0 auto 0;
     width: 1440px;
+    font-family: 'Alata', sans-serif;
 }
+
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
 header {
-    height: 650px;
+    height: 600px;
     background: url(images/desktop/image-hero.jpg) no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     padding-top: 50px;
-    padding: 50px 6vw 0;
+    padding: 50px 165px 0;
 
 }
 
@@ -28,7 +34,7 @@ header {
 
 .header--nav--list li {
     display: inline-block;
-    margin-left: 20px;
+    margin-left: 30px;
 }
 
 .header--nav--list li a {
@@ -38,9 +44,9 @@ header {
 
 .immersive--experience {
     width: 54%;
-    margin-top: 170px;
+    margin-top: 120px;
     color: white;
-    font-size: 62px;
+    font-size: 65px;
     border-style: solid;
     border-color: white;
     border-width: 2px;
@@ -59,7 +65,7 @@ footer {
 .leader--interactive--vr {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr;
     height: 30vh;
     background: cornflowerblue;
 
