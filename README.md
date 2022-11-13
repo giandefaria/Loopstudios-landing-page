@@ -9,9 +9,9 @@ challenge from frontendmentor.io. https://www.frontendmentor.io/challenges/time-
 **O objetivo é treinar as habilidades com o uso do grid. Há também a possibilidade de praticar o uso de dados de um arquivo JSON no projeto, arquivo esse já fornecido pelo challenge.** 
 **Para executar esse projeto basta executar o arquivo index.html**
  ### Tarefas
- [ ] criar as divisões do cabeçalho, principal, e rodapé
- [ ] criar gridbox do site, deixando pronta as divisões do conteúdo
- [ ] adicionar os navegadores e a logo do site no cabeçalho
+ [X] criar as divisões do cabeçalho, principal, e rodapé
+ [x] criar gridbox do site, deixando pronta as divisões do conteúdo
+ [X] adicionar os navegadores e a logo do site no cabeçalho
  [ ] adicionar o background do cabeçalho
  [ ] adicionar as duas imagens iniciais do main
  [ ] adicionar o título e as imagens do grid no main

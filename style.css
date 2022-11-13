@@ -1,0 +1,81 @@
+html {
+    margin: 0 auto 0;
+    width: 1440px;
+}
+header {
+    height: 650px;
+    background: url(images/desktop/image-hero.jpg) no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: 50px;
+    padding: 50px 6vw 0;
+
+}
+
+.header--logo--nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0 0 0;
+}
+
+.header--nav {
+    list-style: none;
+}
+
+
+.header--nav--list li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.header--nav--list li a {
+    text-decoration: none;
+    color: white;
+}
+
+.immersive--experience {
+    width: 54%;
+    margin-top: 170px;
+    color: white;
+    font-size: 62px;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    padding: 41px;
+}
+
+main {
+    background: chartreuse;
+}
+
+footer {
+    height: 20vh;
+    background: gray;
+}
+
+.leader--interactive--vr {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr 1fr;
+    height: 30vh;
+    background: cornflowerblue;
+
+}
+
+.our--creations {
+    display: flex;    
+    height: 20vh;
+}
+
+.grid--images {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 1fr;
+    height: 80vh;
+    gap: 20px;
+    background: tomato;
+
+}
