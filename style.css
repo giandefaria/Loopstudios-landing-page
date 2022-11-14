@@ -2,7 +2,7 @@ html {
     margin: 0 auto 0;
     width: 1440px;
     font-family: 'Alata', sans-serif;
-    background: black;
+    background: #ebe9e947;
 }
 
 
@@ -142,6 +142,10 @@ footer {
     position: absolute;
     bottom: 37px;
     margin: 0 45px 0;
+}
+
+footer {
+    background: hsl(0, 0%, 0%);
 }
 
 .footer--logos {
