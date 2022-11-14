@@ -142,3 +142,14 @@ footer {
     bottom: 37px;
     margin: 0 45px 0;
 }
+
+.footer--logos {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0 0;
+
+}
+
+.other--logos img {
+    margin-left: 12px;
+}
