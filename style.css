@@ -117,6 +117,15 @@ footer {
     font-size: 50px;
 }
 
+.see--all {
+    font-family: 'Alata', sans-serif;
+    background: white;
+    padding: 12px 56px;
+    font-size: 14px;
+    line-height: normal;
+    letter-spacing: 2px;
+}
+
 .grid--images {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -175,4 +184,9 @@ footer {
 
 .copyright {
     color: hsl(0, 0%, 55%);
+    font-size: 15px;
+}
+
+@media screen and (max-width: 700px) {
+    
 }
