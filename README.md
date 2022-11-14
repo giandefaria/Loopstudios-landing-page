@@ -15,7 +15,7 @@ challenge from frontendmentor.io. https://www.frontendmentor.io/challenges/time-
  [X] Arrumar a fonte no cabeçalho
  [X] adicionar o background do cabeçalho
  [X] adicionar a imagem vr e a caixa do texto
- [ ] adicionar o título e as imagens do grid no main
+ [X] adicionar o título e as imagens do grid no main
  [ ] adicionar as logos no rodapé
  [ ] adicionar os navegadores do rodapé
  [ ] realizar media query para a correta visualização no celular

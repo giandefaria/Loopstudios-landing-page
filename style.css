@@ -2,6 +2,7 @@ html {
     margin: 0 auto 0;
     width: 1440px;
     font-family: 'Alata', sans-serif;
+    background: black;
 }
 
 
@@ -60,7 +61,8 @@ main, footer {
 }
 
 main {
-    background: chartreuse;
+    background: hsl(0, 0%, 100%);
+    padding: 0 165px 190px;
 }
 
 footer {
@@ -104,15 +106,39 @@ footer {
 
 .our--creations {
     display: flex;    
-    height: 20vh;
+    margin-top: 100px;
+    height: 188px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.creations--title {
+    font-size: 50px;
 }
 
 .grid--images {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 1fr 1fr;
-    height: 80vh;
-    gap: 20px;
-    background: tomato;
+    gap: 28px;
 
+}
+
+.grid--images li img  {
+    width: 100%;
+    filter: brightness(70%);
+}
+
+.deep--earth, .night--arcade, .soccer--arcade, .the--grid, .above--vr, .pocket--borealis, .the--curiosity, .make--fisheye {
+    position: relative;
+
+}
+
+.deep--earth--text, .night--arcade--text, .soccer--text, .grid--text, .vr--text, .borealis--text, .curiosity--text, .fisheye--text {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    color: hsl(0, 0%, 100%);
+    position: absolute;
+    bottom: 37px;
+    margin: 0 45px 0;
 }
