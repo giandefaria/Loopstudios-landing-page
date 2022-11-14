@@ -14,7 +14,7 @@ challenge from frontendmentor.io. https://www.frontendmentor.io/challenges/time-
  [X] adicionar os navegadores e a logo do site no cabeçalho
  [X] Arrumar a fonte no cabeçalho
  [X] adicionar o background do cabeçalho
- [ ] adicionar as duas imagens iniciais do main
+ [X] adicionar a imagem vr e a caixa do texto
  [ ] adicionar o título e as imagens do grid no main
  [ ] adicionar as logos no rodapé
  [ ] adicionar os navegadores do rodapé
