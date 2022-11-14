@@ -34,17 +34,18 @@ main, footer {
     margin: 20px 0 0 0;
 }
 
-.header--nav {
-    list-style: none;
-}
-
-
-.header--nav--list li {
-    display: inline-block;
+.margin--header--nav li {
     margin-left: 30px;
 }
 
-.header--nav--list li a {
+
+.nav--list li {
+    display: inline-block;
+
+}
+
+
+.nav--list li a {
     text-decoration: none;
     color: white;
 }
@@ -150,6 +151,24 @@ footer {
 
 }
 
+.loop--logo img {
+    width: 153px;
+}
+
 .other--logos img {
     margin-left: 12px;
+}
+
+.footer--copyright--nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.margin--footer--nav li {
+    margin-right: 30px;
+}
+
+.copyright {
+    color: hsl(0, 0%, 55%);
 }
