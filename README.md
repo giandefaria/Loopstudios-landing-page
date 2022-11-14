@@ -18,6 +18,7 @@ challenge from frontendmentor.io. https://www.frontendmentor.io/challenges/time-
  [X] adicionar o título e as imagens do grid no main
  [X] adicionar as logos no rodapé
  [X] adicionar os navegadores do rodapé
+ [ ] Um passo atrás, alterar imagens para background
  [ ] realizar media query para a correta visualização no celular
  [ ] adicionar botao de acesso aos links de navegação no cabeçalho
  [ ] recolher a navegação no cabeçalho no botao
