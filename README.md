@@ -13,16 +13,17 @@ challenge from frontendmentor.io. https://www.frontendmentor.io/challenges/time-
  [x] criar gridbox do site, deixando pronta as divisões do conteúdo
  [X] adicionar os navegadores e a logo do site no cabeçalho
  [X] Arrumar a fonte no cabeçalho
- [X] adicionar o background do cabeçalho
+ [X] adicionar a imagem do cabeçalho
  [X] adicionar a imagem vr e a caixa do texto
  [X] adicionar o título e as imagens do grid no main
  [X] adicionar as logos no rodapé
  [X] adicionar os navegadores do rodapé
  [X] alterar imagens do main da versão desktop para mobile
  [X] realizar media query para a correta visualização no celular de modo geral
- [ ] Corrigir margem no grid
- [ ] adicionar botao de acesso aos links de navegação no cabeçalho
- [ ] recolher a navegação no cabeçalho no botao
+ [X] Corrigir margem no grid no mobile
+ [ ] Corrigir texto das imagens dentro do grid
+ [X] adicionar botao de acesso aos links de navegação no cabeçalho
+ [ ] criar o menu lateral com o navegador no mobile
  [ ] adicionar função no JS para ativar o display desses navegadores ao clicar na imagem
 
  # Arquivo index.html

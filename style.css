@@ -12,6 +12,10 @@ h1 {
 }
 
 header {
+    position: relative;
+}
+
+/*header {
     height: 600px;
     background: url(images/desktop/image-hero.jpg) no-repeat;
     -webkit-background-size: cover;
@@ -21,17 +25,21 @@ header {
     padding-top: 50px;
     padding: 50px 165px 0;
 
-}
+}*/
 
 main {
     padding: 0 165px 0;
 }
 
 .header--logo--nav {
+    position: absolute;
+    top: 40px;
+    margin: 20px 165px 0;
+    width: -webkit-fill-available;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 20px 0 0 0;
+
 }
 
 .margin--header--nav li {
@@ -51,8 +59,10 @@ main {
 }
 
 .immersive--experience {
-    width: 54%;
-    margin-top: 120px;
+    width: 567px;
+    position: absolute;
+    top: 225px;
+    margin: 0px 165px 0;
     color: white;
     font-size: 65px;
     border-style: solid;
@@ -197,7 +207,7 @@ footer {
 
 @media screen and (min-width: 701px) {
 
-    .image--vr--mobile, .deep--eart--mobile, .night--arcade--mobile, .soccer--arcade--mobile, .the--grid--mobile, .above--vr--mobile, .pocket--borealis--mobile, .the--curiosity--mobile, .make--fisheye--mobile, .see-all--mobile  {
+    .hero--image--mobile, .acess--menu, .image--vr--mobile, .deep--eart--mobile, .night--arcade--mobile, .soccer--arcade--mobile, .the--grid--mobile, .above--vr--mobile, .pocket--borealis--mobile, .the--curiosity--mobile, .make--fisheye--mobile, .see-all--mobile  {
         display: none;
     }
 }
@@ -207,21 +217,31 @@ footer {
         width: auto;
     }
 
-    header {
-        height: auto;
-        background: url(images/mobile/image-hero.jpg) no-repeat;
-        background-size: 100% 100%;
-        padding: 50px 0 0 0;
-        padding: 50px 0 0 0;
+    .hero--image--mobile {
+        width: 100%;
+    }
+
+    .header--logo--nav {
+        margin: 25px 5vw 0;
+    }
+
+    .nav--list {
+        display: none;
+    }
+
+    .acess--menu {
+        display: block;
+        width: 32px;
     }
 
     .immersive--experience {
+        width: auto;
         font-size: 36px;
-        margin: 50px auto 0;
+        margin: 25px 5vw 0;
     }
 
     main {
-        padding: 0;
+        padding: 0 5vw 0;
     }
 
     footer {
@@ -235,7 +255,7 @@ footer {
         align-items: initial;
     }
 
-    .image--vr--desktop, .deep--eart--desktop, .night--arcade--desktop, .soccer--arcade--desktop, .the--grid--desktop, .above--vr--desktop, .pocket--borealis--desktop, .the--curiosity--desktop, .make--fisheye--desktop {
+    .hero--image--desktop, .image--vr--desktop, .deep--eart--desktop, .night--arcade--desktop, .soccer--arcade--desktop, .the--grid--desktop, .above--vr--desktop, .pocket--borealis--desktop, .the--curiosity--desktop, .make--fisheye--desktop {
         display: none;
     }
 
@@ -266,12 +286,12 @@ footer {
 
     .our--creations {
         display: block;
-        height: 70px;
+        height: 80px;
         text-align: center;
     }
 
     .creations--title {
-        font-size: 40px;
+        font-size: 35px;
     }
 
     .see--all {
