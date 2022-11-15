@@ -23,7 +23,7 @@ header {
 
 }
 
-main, footer {
+main {
     padding: 0 165px 0;
 }
 
@@ -64,11 +64,6 @@ main, footer {
 main {
     background: hsl(0, 0%, 100%);
     padding: 0 165px 190px;
-}
-
-footer {
-    height: 20vh;
-    background: gray;
 }
 
 .leader--interactive--vr {
@@ -157,17 +152,30 @@ footer {
 
 footer {
     background: hsl(0, 0%, 0%);
+    padding: 0 165px 40px;
 }
 
 .footer--logos {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     padding: 40px 0 0;
 
 }
 
 .loop--logo img {
     width: 153px;
+}
+
+.footer--nav {
+    Margin-top: 36px;
+}
+
+.margin--footer--nav li {
+    margin-right: 30px;
+}
+
+.other--logos {
+    text-align: right;
 }
 
 .other--logos img {
@@ -180,19 +188,16 @@ footer {
     margin-top: 25px;
 }
 
-.margin--footer--nav li {
-    margin-right: 30px;
-}
-
 .copyright {
     color: hsl(0, 0%, 55%);
     font-size: 15px;
+    margin-top: 36px;
 }
 
 
 @media screen and (min-width: 701px) {
 
-    .image--vr--mobile, .deep--eart--mobile, .night--arcade--mobile, .soccer--arcade--mobile, .the--grid--mobile, .above--vr--mobile, .pocket--borealis--mobile, .the--curiosity--mobile, .make--fisheye--mobile  {
+    .image--vr--mobile, .deep--eart--mobile, .night--arcade--mobile, .soccer--arcade--mobile, .the--grid--mobile, .above--vr--mobile, .pocket--borealis--mobile, .the--curiosity--mobile, .make--fisheye--mobile, .see-all--mobile  {
         display: none;
     }
 }
@@ -215,10 +220,15 @@ footer {
         margin: 50px auto 0;
     }
 
-    main, footer {
+    main {
         padding: 0;
     }
 
+    footer {
+        padding: 0 0 60px 0;
+    }
+
+   
     .leader--interactive--vr {
         grid-template-columns: 1fr;
         grid-template-rows: unset;
@@ -276,6 +286,21 @@ footer {
     .grid--images {
         grid-template-columns: 1fr;
         grid-template-rows: unset;
+    }
+
+    .footer--logos, .other--logos {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .footer--logos {
+        gap: 25px;
+    }
+
+    .margin--footer--nav li, .nav--list li {
+        margin-right: unset;
+        display: block;
+        padding: 0 0 25px 0;
     }
 
 
