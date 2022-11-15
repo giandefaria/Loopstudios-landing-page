@@ -81,12 +81,7 @@ footer {
 
 }
 
-.image--vr {
-    width: 731px;
-    height: 500px;
-    background: url(images/desktop/image-interactive.jpg) no-repeat;
-    background-size: 100%;
-}
+
 
 .interactive--box--text {
     position: absolute;
@@ -194,6 +189,14 @@ footer {
     font-size: 15px;
 }
 
+
+@media screen and (min-width: 701px) {
+
+    .image--vr--mobile, .deep--eart--mobile, .night--arcade--mobile, .soccer--arcade--mobile, .the--grid--mobile, .above--vr--mobile, .pocket--borealis--mobile, .the--curiosity--mobile, .make--fisheye--mobile  {
+        display: none;
+    }
+}
+
 @media screen and (max-width: 700px) {
     html {
         width: auto;
@@ -222,11 +225,13 @@ footer {
         align-items: initial;
     }
 
-    .image--vr {
-        width: 100vw;
-        height: 30vh;
-        background: url(images/mobile/image-interactive.jpg) no-repeat;
-        background-size: 100%;
+    .image--vr--desktop, .deep--eart--desktop, .night--arcade--desktop, .soccer--arcade--desktop, .the--grid--desktop, .above--vr--desktop, .pocket--borealis--desktop, .the--curiosity--desktop, .make--fisheye--desktop {
+        display: none;
+    }
+
+    .image--vr--mobile, .deep--eart--mobile ,.night--arcade--mobile, .soccer--arcade--mobile, .the--grid--mobile, .above--vr--mobile, .pocket--borealis--mobile, .the--curiosity--mobile, .make--fisheye--mobile {
+        display: block;
+        width: 100%;
     }
 
     .interactive--box--text {
@@ -248,4 +253,30 @@ footer {
     .interactive--p {
         margin-top: 20px;
     }
+
+    .our--creations {
+        display: block;
+        height: 70px;
+        text-align: center;
+    }
+
+    .creations--title {
+        font-size: 40px;
+    }
+
+    .see--all {
+        display: none;
+    }
+
+    .see-all--mobile {
+        display: block;
+        margin: 20px auto 70px;
+    }
+    
+    .grid--images {
+        grid-template-columns: 1fr;
+        grid-template-rows: unset;
+    }
+
+
 }
