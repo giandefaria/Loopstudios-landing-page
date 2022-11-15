@@ -24,7 +24,7 @@ challenge from frontendmentor.io. https://www.frontendmentor.io/challenges/time-
  [ ] Corrigir texto das imagens dentro do grid
  [X] adicionar botao de acesso aos links de navegação no cabeçalho
  [X] criar o menu lateral com o navegador no mobile
- [ ] adicionar função no JS para ativar o display desses navegadores ao clicar na imagem
+ [X] adicionar função no JS para ativar o display desses navegadores ao clicar na imagem
 
  # Arquivo index.html
  * 

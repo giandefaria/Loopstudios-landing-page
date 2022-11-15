@@ -247,7 +247,7 @@ footer {
     }
 
     .menu--mobile--active {
-        transition: 0.5ms;
+        transition: 400ms;
         left: 0px;
     }
 
