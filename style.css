@@ -207,7 +207,7 @@ footer {
 
 @media screen and (min-width: 701px) {
 
-    .hero--image--mobile, .acess--menu, .image--vr--mobile, .deep--eart--mobile, .night--arcade--mobile, .soccer--arcade--mobile, .the--grid--mobile, .above--vr--mobile, .pocket--borealis--mobile, .the--curiosity--mobile, .make--fisheye--mobile, .see-all--mobile  {
+    .hero--image--mobile, .acess--menu, .close--menu, .header--logo-svg--menu, .image--vr--mobile, .deep--eart--mobile, .night--arcade--mobile, .soccer--arcade--mobile, .the--grid--mobile, .above--vr--mobile, .pocket--borealis--mobile, .the--curiosity--mobile, .make--fisheye--mobile, .see-all--mobile  {
         display: none;
     }
 }
@@ -222,16 +222,45 @@ footer {
     }
 
     .header--logo--nav {
-        margin: 25px 5vw 0;
+        margin: 2px 5vw 0;
     }
 
-    .nav--list {
-        display: none;
+    .header--logo-svg {
+        width: 150px;
+
+    }
+
+    .header--logo-svg--menu {
+        width: 150px;
+    }
+
+    .menu--mobile {
+        position: fixed;
+        padding: 160px 0 0 0;
+        top: 0px;
+        left: 1000px;
+        width: -webkit-fill-available;
+        height: 100%;
+        background: black;
+        z-index: 10;
+        font-size: xx-large;
+    }
+
+    .menu--mobile--active {
+        transition: 0.5ms;
+        left: 0px;
+    }
+
+    .close--menu {
+        position: absolute;
+        width: unset;
+        right: 0px;
+
     }
 
     .acess--menu {
         display: block;
-        width: 32px;
+        width: 25px;
     }
 
     .immersive--experience {
