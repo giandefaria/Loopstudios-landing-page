@@ -1,10 +1,11 @@
 # Frontend Mentor - Loopstudios landing page
 
+**Preview**
 ![Design preview for the Loopstudios landing page coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
 
-challenge from frontendmentor.io. https://www.frontendmentor.io/challenges/time-tracking-dashboard-UIQ7167Jw
+challenge from frontendmentor.io. https://www.frontendmentor.io/challenges/loopstudios-landing-page-N88J5Onjw
 
 **O objetivo é treinar as habilidades com o uso do grid na página, além de adaptá-la para melhor visualização em dispositivos móveis.** 
 **Para executar esse projeto basta executar o arquivo index.html**
@@ -21,7 +22,7 @@ challenge from frontendmentor.io. https://www.frontendmentor.io/challenges/time-
  [X] alterar imagens do main da versão desktop para mobile
  [X] realizar media query para a correta visualização no celular de modo geral
  [X] Corrigir margem no grid no mobile
- [ ] Corrigir texto das imagens dentro do grid
+ [X] Corrigir texto das imagens dentro do grid
  [X] adicionar botao de acesso aos links de navegação no cabeçalho
  [X] criar o menu lateral com o navegador no mobile
  [X] adicionar função no JS para ativar o display desses navegadores ao clicar na imagem
