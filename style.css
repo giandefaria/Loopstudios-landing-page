@@ -131,6 +131,7 @@ main {
     font-size: 14px;
     line-height: normal;
     letter-spacing: 2px;
+    cursor: pointer;
 }
 
 .grid--images {
@@ -190,6 +191,7 @@ footer {
 
 .other--logos img {
     margin-left: 12px;
+    cursor: pointer;
 }
 
 .footer--copyright--nav {
@@ -236,7 +238,7 @@ footer {
 
     .menu--mobile {
         position: fixed;
-        padding: 160px 0 0 0;
+        padding: 215px 0 0 0;
         top: 0px;
         left: 1000px;
         width: -webkit-fill-available;
@@ -249,6 +251,12 @@ footer {
     .menu--mobile--active {
         transition: 400ms;
         left: 0px;
+    }
+
+    .menu--mobile li {
+        font-family: 'Josefin Sans', sans-serif;
+        text-transform: uppercase;
+        font-size: 24px;
     }
 
     .close--menu {
@@ -265,8 +273,10 @@ footer {
 
     .immersive--experience {
         width: auto;
-        font-size: 36px;
-        margin: 25px 5vw 0;
+        top: 198px;
+        font-size: 40px;
+        margin: 25px 6vw 0;
+        padding: 24px;
     }
 
     main {
@@ -300,7 +310,7 @@ footer {
     }
 
     .margin--text {
-        margin: 0 38px 0px;
+        margin: 0 20px 0px;
         text-align: center;
     }
 
@@ -329,12 +339,19 @@ footer {
 
     .see-all--mobile {
         display: block;
-        margin: 20px auto 70px;
+        margin: 10px auto 70px;
     }
     
     .grid--images {
         grid-template-columns: 1fr;
         grid-template-rows: unset;
+    }
+
+    .deep--earth--text, .night--arcade--text, .soccer--text, .grid--text, .vr--text, .borealis--text, .curiosity--text, .fisheye--text {
+        font-size: 25px;
+        bottom: 18px;
+        width: 115px;
+        margin: 0px 21px 0;
     }
 
     .footer--logos, .other--logos {
