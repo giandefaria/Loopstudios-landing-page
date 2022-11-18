@@ -1,37 +1,26 @@
 # Frontend Mentor - Loopstudios landing page
 
 **Preview**
+* Desktop preview
 ![Design preview for the Loopstudios landing page coding challenge](./design/desktop-preview.jpg)
+
+* Mobile preview
+![Design preview in mobile](./design/mobile-preview.jpg)(./design/active-states.jpg)
+
 
 ## Welcome! 👋
 
 challenge from frontendmentor.io. https://www.frontendmentor.io/challenges/loopstudios-landing-page-N88J5Onjw
 
-**O objetivo é treinar as habilidades com o uso do grid na página, além de adaptá-la para melhor visualização em dispositivos móveis.** 
+**O objetivo é treinar as habilidades com o uso do grid na página, além de adaptá-la para melhor visualização em dispositivos móveis. O principal foco dessa atividade é no HTML e CSS da página. Ao JS apenas cabe a função de ativar e recolher o menu de navegação nos dispositivos móveis** 
 **Para executar esse projeto basta executar o arquivo index.html**
- ### Tarefas
- [X] criar as divisões do cabeçalho, principal, e rodapé
- [x] criar gridbox do site, deixando pronta as divisões do conteúdo
- [X] adicionar os navegadores e a logo do site no cabeçalho
- [X] Arrumar a fonte no cabeçalho
- [X] adicionar a imagem do cabeçalho
- [X] adicionar a imagem vr e a caixa do texto
- [X] adicionar o título e as imagens do grid no main
- [X] adicionar as logos no rodapé
- [X] adicionar os navegadores do rodapé
- [X] alterar imagens do main da versão desktop para mobile
- [X] realizar media query para a correta visualização no celular de modo geral
- [X] Corrigir margem no grid no mobile
- [X] Corrigir texto das imagens dentro do grid
- [X] adicionar botao de acesso aos links de navegação no cabeçalho
- [X] criar o menu lateral com o navegador no mobile
- [X] adicionar função no JS para ativar o display desses navegadores ao clicar na imagem
+**No arquivo 'tarefas.md' consta o passo a passo realizado para o desenvolvimento do projeto.**
 
  # Arquivo index.html
- * 
+ * Arquivo para iniciar o projeto. Aqui consta a marcação dos elementos no html.
 
  # Arquivo style.css
- * 
+ * Adicionei o visual da página no desktop e no mobile 
 
  # Arquivo script.js
-  * 
+  * Contém uma função JS simples, apenas para ativar e desativar a classe "menu--mobile" ao clicar no ícone.  
