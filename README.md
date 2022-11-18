@@ -5,7 +5,8 @@
 ![Design preview for the Loopstudios landing page coding challenge](./design/desktop-preview.jpg)
 
 * Mobile preview
-![Design preview in mobile](./design/mobile-preview.jpg)![Design preview in mobile](./design/active-states.jpg)
+![Design preview in mobile](./design/mobile-preview.jpg)
+![Design active in mobile](./design/mobile-menujpg)
 
 
 ## Welcome! 👋
