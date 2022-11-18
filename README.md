@@ -13,8 +13,8 @@
 
 challenge from frontendmentor.io. https://www.frontendmentor.io/challenges/loopstudios-landing-page-N88J5Onjw
 
-**O objetivo é treinar as habilidades com o uso do grid na página, além de adaptá-la para melhor visualização em dispositivos móveis. O principal foco dessa atividade é no HTML e CSS da página. Ao JS apenas cabe a função de ativar e recolher o menu de navegação nos dispositivos móveis** 
-**Para executar esse projeto basta executar o arquivo index.html**
+**O objetivo é treinar as habilidades com o uso do grid na página, além de adaptá-la para melhor visualização em dispositivos móveis. O principal foco dessa atividade é no HTML e CSS da página. Ao JS apenas cabe a função de ativar e recolher o menu de navegação nos dispositivos móveis.**
+**Para executar esse projeto basta executar o arquivo index.html.**
 **No arquivo 'tarefas.md' consta o passo a passo realizado para o desenvolvimento do projeto.**
 
  # Arquivo index.html
