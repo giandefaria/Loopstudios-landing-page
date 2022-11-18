@@ -6,7 +6,7 @@
 
 * Mobile preview
 ![Design preview in mobile](./design/mobile-preview.jpg)
-![Design active in mobile](./design/mobile-menujpg)
+![Design active in mobile](./design/mobile-menu.jpg)
 
 
 ## Welcome! 👋
