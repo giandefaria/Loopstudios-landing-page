@@ -30,3 +30,6 @@
  [X] criar o menu lateral com o navegador no mobile
  
  [X] adicionar função no JS para ativar o display desses navegadores ao clicar na imagem
+
+ [ ] adicionar pseudo-classes nas imagens do grid, para aumentar de tamanho ao passar com o mouse por cima, para dar mais vida a navegação do projeto
+
