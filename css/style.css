@@ -146,6 +146,11 @@ main {
 .grid--images li img  {
     width: 100%;
     filter: brightness(70%);
+    cursor: pointer;
+}
+
+.grid--images li img:hover {
+    scale: 1.05;
 }
 
 .deep--earth, .night--arcade, .soccer--arcade, .the--grid, .above--vr, .pocket--borealis, .the--curiosity, .make--fisheye {
